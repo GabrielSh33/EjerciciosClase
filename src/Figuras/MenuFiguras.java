@@ -4,33 +4,35 @@ import java.util.Scanner;
 public class MenuFiguras {
     public static void main(String[] args) {
 
-        boolean enEjecucion= true;
+        boolean enEjecucion = true;
 
-        do{
+        do {
 
-            System.out.println("1.Cuadrado: ");
-            System.out.println("2.Triangulo: ");
+            System.out.println("1.Triangulo: ");
+            System.out.println("2.Cuadradoo: ");
             System.out.println("Seleccione una opcion: ");
-            Scanner sc = new Scanner (System.in);
-            int opcion= sc.nextInt();
 
-            switch(opcion){
-                case 1:{
-                    Cuadrado c1 = new Cuadrado(3);
-                    System.out.println( "El area del cuadrado es "+ c1.calcularArea()+ " y su perimetro es "+
-                            c1.calcularPerimetro()
-                    );
-                    break;
+            Scanner sc = new Scanner(System.in);
+            int opcion = sc.nextInt();
 
-                }
-                case 2:{
-                    Triangulo triangulo = new Triangulo (5,4,7);
-                    System.out.println("El area del triangulo es "+ triangulo.calcularArea()+ " y su perimetro es "+
+            switch (opcion) {
+
+                case 1: {
+                    Triangulo triangulo = new Triangulo(5, 4, 7);
+                    System.out.println("El area del triangulo es " + triangulo.calcularArea() +
+                            " y su perimetro es " +
                             triangulo.calcularPerimetro());
                     break;
                 }
+                case 2: {
+                    Cuadrado c1 = new Cuadrado(3);
+                    System.out.println("El area del cuadrado es " + c1.calcularArea() + " y su perimetro es " +
+                            c1.calcularPerimetro());
+                    break;
 
-                default:{
+                }
+
+                default: {
                     System.out.println("No existe la opción disponible");
                 }
 
