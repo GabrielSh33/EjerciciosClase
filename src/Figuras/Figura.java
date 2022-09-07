@@ -12,9 +12,12 @@ public abstract class Figura {
     public double getPerimetro(){
         return perimetro;
     }
-    public abstract void calculaArea();
+    public abstract double calcularArea();
 
 
-    public abstract void calcularPerimetro();
+    public abstract double calcularPerimetro();
+
+    public abstract String toString();
+
 }
 

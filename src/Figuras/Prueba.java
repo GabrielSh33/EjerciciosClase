@@ -1,24 +1,14 @@
 package Figuras;
 
 public class Prueba {
-    public static void main(String[] args) {
-        Triangulo t1= new Triangulo(4,6,3,4,4);
-        System.out.println("El area del triangulo es: " + t1.getArea());
-        System.out.println("El perimetro es: "+ t1.getPerimetro());
-        Figura f1=new Figura(){
+        public static void main(String[] args) {
+            Triangulo t1 = new Triangulo(3, 3, 2);
+            System.out.println(t1.toString());
+
+            Cuadrado c1 = new Cuadrado(2.5);
+            System.out.println(c1.toString());
 
 
-            @Override
-            public void calculaArea() {
-
-            }
-
-            @Override
-            public void calcularPerimetro() {
-
-            }
-        };
-
-}
-}
+        }
+    }
 
