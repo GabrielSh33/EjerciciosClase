@@ -1,8 +1,8 @@
 public class Persona {
-    private String nombre;
-    private int edad;
-    private String sexo;
-    private  String direccion;
+    protected String nombre;
+    protected int edad;
+    protected String sexo;
+    protected   String direccion;
 
     public Persona(String nombre, int edad, String sexo, String direccion) {
         this.nombre = nombre;
@@ -24,10 +24,6 @@ public class Persona {
 
     public String getDireccion() {
         return direccion;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
     }
 
     public void mostrarInfo(){

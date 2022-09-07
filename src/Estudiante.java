@@ -1,7 +1,7 @@
 public class Estudiante extends Persona {
-    String noCuenta;
-    String curso;
-    String calificacion;
+   private String noCuenta;
+    private String curso;
+    private String calificacion;
 
     public Estudiante(){
         super("default",0,"X","s/d");
