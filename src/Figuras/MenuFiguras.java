@@ -10,7 +10,10 @@ public class MenuFiguras {
 
             System.out.println("1.Triangulo: ");
             System.out.println("2.Cuadradoo: ");
-            System.out.println("Seleccione una opcion: ");
+            System.out.println("3.Circulo: ");
+            System.out.println("4.Salir del programa: ");
+            System.out.println("---------------------------------------------------------");
+            System.out.println("SELECCIONE UNA OPCION: ");
 
             Scanner sc = new Scanner(System.in);
             int opcion = sc.nextInt();
@@ -20,27 +23,27 @@ public class MenuFiguras {
                 case 1: {
                     Triangulo triangulo = new Triangulo(5, 4, 7);
                     System.out.println("El area del triangulo es " + triangulo.calcularArea() +
-                            " y su perimetro es " +
-                            triangulo.calcularPerimetro());
+                            " y su perimetro es " + triangulo.calcularPerimetro());
                     break;
                 }
                 case 2: {
                     Cuadrado c1 = new Cuadrado(3);
-                    System.out.println("El area del cuadrado es " + c1.calcularArea() + " y su perimetro es " +
-                            c1.calcularPerimetro());
+                    System.out.println("El area del cuadrado es " + c1.calcularArea() + " " +
+                            "y su perimetro es " + c1.calcularPerimetro());
                     break;
-
+                }
+                case 3: {
+                    Circulo circulo = new Circulo(5);
+                    System.out.println("El  area de circulo es " + circulo.calcularArea() +
+                            " y su perimetro es " + circulo.calcularPerimetro());
+                    break;
                 }
 
-                default: {
-                    System.out.println("No existe la opción disponible");
+                case 4: {
+                    System.out.println("Salir del programa");
+                    return;
                 }
 
-            }
-            System.out.println("¿Desea realizar otra operacion? Si/No");
-            String respuesta = leerTeclado();
-            if(respuesta.equalsIgnoreCase("No")){
-                enEjecucion=false;
             }
 
         }while(enEjecucion);
@@ -52,4 +55,3 @@ public class MenuFiguras {
         return retorno;
     }
 }
-

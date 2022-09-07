@@ -8,6 +8,9 @@ public class Prueba {
             Cuadrado c1 = new Cuadrado(2.5);
             System.out.println(c1.toString());
 
+            Circulo s2 = new Circulo(5);
+            System.out.println(s2.toString());
+
 
         }
     }
