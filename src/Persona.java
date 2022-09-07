@@ -14,6 +14,21 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
+    public int getEdad() {
+        return edad;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 
     public void mostrarInfo(){
         System.out.println("Nombre: "+nombre);
