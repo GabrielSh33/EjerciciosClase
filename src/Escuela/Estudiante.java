@@ -1,4 +1,6 @@
-public class Estudiante extends Persona {
+package Escuela;
+
+public class Estudiante extends Persona implements IntAlumno1, IntAlumno2 {
    private String noCuenta;
     private String curso;
     private String calificacion;
@@ -40,6 +42,25 @@ public class Estudiante extends Persona {
         System.out.println("no de Cuenta: "+noCuenta);
         System.out.println("Curso: "+curso);
         System.out.println("calificación: "+calificacion);
+    }
+
+    public void mostrarCurso(){
+        System.out.println("Curso: ");
+    }
+
+    @Override
+    public void mostrarGrado() {
+
+    }
+
+    @Override
+    public int ObtenerAñosdeCarrera() {
+        return 0;
+    }
+
+    @Override
+    public void entrarCurso() {
+
     }
 }
 

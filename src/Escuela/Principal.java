@@ -1,3 +1,8 @@
+package Escuela;
+
+import Escuela.Estudiante;
+import Escuela.Persona;
+
 public class Principal {
     public static void main(String[] args) {
         Persona p1=new Persona("Maria",12,"F","jocotitlan");

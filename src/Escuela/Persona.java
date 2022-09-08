@@ -1,3 +1,5 @@
+package Escuela;
+
 public class Persona {
     protected String nombre;
     protected int edad;
@@ -32,5 +34,6 @@ public class Persona {
         System.out.println("Sexo: "+sexo);
         System.out.println("Direccion: "+direccion);
     }
+
 }
 
