@@ -1,4 +1,6 @@
-package GUI;
+package GUI.CampoTexto;
+
+import GUI.CampoTexto.CampoTextoMarco;
 
 import javax.swing.JFrame;
 

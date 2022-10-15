@@ -1,4 +1,6 @@
-package GUI;
+package GUI.LabelFrame;
+import GUI.LabelFrame.LabelFrame;
+
 import javax.swing.JFrame;
 
 public class PruebaLabel1 {

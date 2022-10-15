@@ -1,4 +1,4 @@
-package GUI;
+package GUI.Suma;
 import javax.swing.JOptionPane;
 
 public class Suma {

@@ -1,4 +1,4 @@
-package GUI;
+package GUI.LabelFrame;
 
  import java.awt.FlowLayout;
  import javax.swing.JLabel;
