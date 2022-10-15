@@ -1,4 +1,4 @@
-package GUI.MarcoBoton;
+package GUI.marcoboton;
 
 import java.awt.*;
 import java.awt.event.ActionListener;

@@ -1,6 +1,4 @@
-package GUI.MarcoBoton;
-
- import GUI.MarcoBoton.MarcoBoton;
+package GUI.marcoboton;
 
  import javax.swing.JFrame;
 
