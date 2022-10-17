@@ -1,5 +1,4 @@
 package GUI.LabelFrame;
-
 // Fig. 12.7: TestLabel.java
 // LabelFrame test.
 

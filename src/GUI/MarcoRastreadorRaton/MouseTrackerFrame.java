@@ -1,5 +1,6 @@
 package GUI.MarcoRastreadorRaton;
-
+// Fig. 12.28: MouseTrackerFrame.java
+// Mouse event handling.
 import java.awt.Color;
 import java.awt.BorderLayout;
 import java.awt.event.MouseListener;

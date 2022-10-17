@@ -7,7 +7,7 @@ public class TestComboBox {
     public static void main(String[] args) {
         ComboBoxFrame comboBoxFrame= new ComboBoxFrame();
         comboBoxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        comboBoxFrame.setSize(400,400);
+        comboBoxFrame.setSize(300,200);
         comboBoxFrame.setVisible(true);
     }
 }// end class CombinationBoxTest

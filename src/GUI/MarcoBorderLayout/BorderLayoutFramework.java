@@ -46,4 +46,4 @@ public class BorderLayoutFramework extends JFrame implements ActionListener{
 
         schema.layoutContainer(getContentPane()); // distributes the content panel
     }
-}// end BorderLayout Frame class
+}// end BorderLayoutFrame class

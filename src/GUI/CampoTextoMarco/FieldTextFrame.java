@@ -70,5 +70,5 @@ public class FieldTextFrame extends JFrame{
             //display the content of the JTextField object
             JOptionPane.showMessageDialog(null, string);
         }
-    } // fin de la clase interna privada ManejadorCampoTexto
-} // fin de la clase CampoTextoMarco
+    } // end of class intern private FieldTextFrame
+} // end of class FieldTextFrame

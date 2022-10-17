@@ -1,5 +1,5 @@
 package GUI.PanelDibujo;
-// Fig. 12.35: Painter.java
+// Fig. 12.34: PanelDrawing.java
 // DrawPanel test.
 import java.awt.Point;
 import java.awt.Graphics;

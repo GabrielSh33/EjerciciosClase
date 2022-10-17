@@ -18,7 +18,7 @@ public class Suma {
                 int sume = number1 + number2;
 
                 //Display the results in the JOptionPane message dialog
-                JOptionPane.showInputDialog(null, "La suma es: "+ sume,
+                JOptionPane.showMessageDialog(null, "La suma es: "+ sume,
                         "Suma de dos enteros ", JOptionPane.PLAIN_MESSAGE);
         }
 }//end class Sum

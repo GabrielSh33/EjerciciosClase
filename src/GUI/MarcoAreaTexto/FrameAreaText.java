@@ -1,6 +1,6 @@
 package GUI.MarcoAreaTexto;
-// Fig. 12.45: FramePanel.java
-// Use of a JPanel object to help layout components.
+// Fig. 12.47: TextAreaFrame.java
+// Copy the selected text from one JText area to another.
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Box;
