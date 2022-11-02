@@ -1,4 +1,5 @@
 package EjerciciosXML;
+
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -62,7 +63,7 @@ public class Ejercicio1XML{
                 persona.appendChild(correoElectronico);
 
                 Element EstudiosRealizados = documento.createElement("EstudiosRealizados");
-                Text textEstudios = documento.createTextNode("Licenciatura en Ingenieria");
+                Text textEstudios = documento.createTextNode("Licenciatura de Ingenieria en Computacion");
                 EstudiosRealizados.appendChild(textEstudios);
                 persona.appendChild(EstudiosRealizados);
 
