@@ -88,13 +88,9 @@ public class Ejercicio1XML{
 
 
                 cv.appendChild(persona);
-
                 documento.getDocumentElement().appendChild(cv);
-
                 Source source = new DOMSource(documento);
-
                 Result result = new StreamResult(new File("Curriculum.xml"));
-
 
                 Transformer transformer = TransformerFactory.newInstance().newTransformer();
                 transformer.transform(source, result);
