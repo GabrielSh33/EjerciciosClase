@@ -71,10 +71,20 @@ public class Ejercicio1XML{
                 CentroEducativo.appendChild(textCentro);
                 persona.appendChild(CentroEducativo);
 
+                Element Idiomas = documento.createElement("Idiomas");
+                Text textIdiomas = documento.createTextNode("Ingles, Español");
+                Idiomas.appendChild(textIdiomas);
+                persona.appendChild(Idiomas);
+
                 Element Experiencia = documento.createElement("ExperienciaLaboral");
                 Text textExperiencia = documento.createTextNode("Ninguna");
                 Experiencia.appendChild(textExperiencia);
                 persona.appendChild(Experiencia);
+
+                Element DatosInteres = documento.createElement("DatosDeInteres");
+                Text textDatosInteres = documento.createTextNode("Salir a pasear, Leer libros");
+                DatosInteres.appendChild(textDatosInteres);
+                persona.appendChild(DatosInteres);
 
 
                 cv.appendChild(persona);
