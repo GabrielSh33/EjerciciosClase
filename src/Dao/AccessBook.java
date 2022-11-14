@@ -11,7 +11,7 @@ public class AccessBook {
         BookDao bookDao = new BookDaoImpl();
 
         for (Books book : bookDao.getAllBooks()) {
-            System.out.println("Book ISBN : " + book.getIsbn());
+            System.out.println("Book ISBN : " + book.getBookName());
         }
 
         //update student
