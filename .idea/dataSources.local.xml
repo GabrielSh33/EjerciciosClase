@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+    <data-source name="@DESKTOP-TIG3QJS" uuid="5abedd38-566e-4142-b36f-12526b6ed477">
+      <database-info product="Microsoft SQL Server" version="14.00.2042" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 11.2 for SQL Server" driver-version="11.2.0.0" dbms="MSSQL" exact-version="14.0.2042" exact-driver-version="11.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Gabriel</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="Libros" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
